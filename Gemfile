@@ -36,6 +36,8 @@ gem 'angularjs-rails', '~> 1.3.10'
 
 gem "slim-rails"
 
+gem 'rest-client', '~> 1.7.2'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
