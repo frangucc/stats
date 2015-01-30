@@ -169,6 +169,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  nokogiri (~> 1.6.6.2)
   pg
   rails (= 4.2.0)
   rest-client (~> 1.7.2)

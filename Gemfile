@@ -36,7 +36,10 @@ gem 'angularjs-rails', '~> 1.3.10'
 
 gem "slim-rails"
 
+# Scraper gems
 gem 'rest-client', '~> 1.7.2'
+
+gem 'nokogiri', '~> 1.6.6.2'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
