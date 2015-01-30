@@ -1,9 +1,9 @@
 (function() {
   'use strict';
 
-  angular.module("stats",
+  angular.module("Stats",
     [
-
+      'stats.metro_tile'
     ]
   );
 })();
