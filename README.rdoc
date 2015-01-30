@@ -4,7 +4,7 @@ To start server:
 
     rails s
 
-In case server doesn't run, remember to run these two commands from directory:
+In case server doesn't run, remember to run these two commands from directory. Best to do this after every git pull:
 
     bundle install
     rake db:migrate
