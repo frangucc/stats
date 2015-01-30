@@ -1,2 +1,2 @@
-angular.module('stats.metro_tile', [])
+angular.module('stats.metro_tile', []);
 
