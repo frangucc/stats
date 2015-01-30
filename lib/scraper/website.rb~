@@ -1,0 +1,18 @@
+class Website
+  require 'nokogiri'
+  require 'open-uri'
+
+  def self.nba_top_scorers
+    Nokogiri::HTML(open("http://stats.nba.com/leaders/#!?StatCategory=PTS", 'User-Agent' => 'ruby')).css(".table").each do |box|
+      puts box.css("tbody").inspect
+
+      # body_contents = box.css("tbody")
+      # players = body_contents.css("tr")
+
+      # players.each do |player|
+
+      # end
+    end
+  end
+
+end
