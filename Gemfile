@@ -41,10 +41,6 @@ gem 'rest-client', '~> 1.7.2'
 
 gem 'nokogiri', '~> 1.6.6.2'
 
-gem 'phantomjs', '~> 1.9.8.0'
-
-gem 'watir', '~> 5.0.0'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

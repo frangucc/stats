@@ -1,4 +1,4 @@
 
 ['scraper'].each do |folder|
-  Dir["#{Rails.root}/lib/scraper/website.rb"].each {|file| load file}
+  Dir["#{Rails.root}/lib/scraper/nba.rb"].each {|file| load file}
 end
